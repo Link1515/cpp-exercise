@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-  srand(time(NULL));
+  srand(time(0));
 
   int count = 0;
   int dice[7] = {}; // ignore element zero index 

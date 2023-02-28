@@ -4,7 +4,21 @@
       "type": "cppbuild",
       "label": "C/C++: g++ build active file",
       "command": "/usr/bin/g++",
-      "args": ["-fdiagnostics-color=always", "-g", "${file}", "-o", "a.out"],
+      "args": [
+        "-fdiagnostics-color=always",
+        "-Wall",
+        "-Weffc++",
+        "-Wextra",
+        "-Wsign-conversion", // Turn warning levels up to the maximum
+        // "-Werror", // Treat warnings as errors
+        "-pedantic-errors", // disable compiler extension
+        "-std=c++20", // language standard
+        "-ggdb", // for debug
+        // "-DNDEBUG", // for release
+        "${file}",
+        "-o",
+        "a.out"
+      ],
       "options": {
         "cwd": "${fileDirname}"
       },
