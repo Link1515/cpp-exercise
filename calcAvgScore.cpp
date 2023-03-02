@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-  int score = 0;
-  int count = 0;
-  int total = 0;
+  int score { 0 };
+  int count { 0 };
+  int total { 0 };
 
   cout << "Enter score and calculate the average. Enter -1 to show result." << endl;
   cout << "--------------------------------------" << endl;

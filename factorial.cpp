@@ -5,7 +5,7 @@ using namespace std;
 int factorial (int input);
 
 int main () {
-  int input;
+  int input{};
 
   cout << "Enter factorial input number: " << endl;
   cin >> input;

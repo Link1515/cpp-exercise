@@ -5,7 +5,7 @@ using namespace std;
 int fibonacci (int index);
 
 int main () {
-  int index;
+  int index{};
 
   cout << "Enter fibonacci index number: " << endl;
   cin >> index;

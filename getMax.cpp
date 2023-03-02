@@ -5,9 +5,9 @@ using namespace std;
 double getMax(double, double, double);
 
 int main () {
-  double num1;
-  double num2;
-  double num3;
+  double num1{};
+  double num2{};
+  double num3{};
 
   cout << "Enter three number, and find the max one" << endl;
 
